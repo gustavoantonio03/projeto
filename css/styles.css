@@ -1,0 +1,160 @@
+body {
+    background-color: var(--bg);
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+
+.menu {
+    background: #222;
+    color: white;
+    padding: 15px 40px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.header-container {
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.logo {
+    margin-right: auto;
+}
+
+
+.foto {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 15px;
+}
+
+
+.menu ul {
+    display: flex;
+    list-style: none;
+    gap: 15px;
+}
+
+
+.menu a {
+    color: white;
+    text-decoration: none;
+    background: #444;
+    padding: 8px 16px;
+    border-radius: 20px;
+    transition: 0.3s;
+    font-weight: bold;
+}
+
+.menu a:hover {
+    background: #00bcd4;
+    transform: scale(1.1);
+}
+
+
+.tabela-sobre {
+    width: 50%;
+    margin: 40px auto;
+    border-collapse: collapse;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    transition: 0.3s;
+}
+
+
+.tabela-sobre th {
+    background-color: #333;
+    color: white;
+    padding: 15px;
+    font-size: 22px;
+}
+
+
+.tabela-sobre td {
+    padding: 20px;
+    text-align: justify;
+    background-color: var(--card);
+}
+
+
+.tabela-sobre:hover {
+    transform: scale(1.03);
+    box-shadow: 0 0 20px rgba(0,0,0,0.4);
+}
+
+
+.tabela-sobre td:hover {
+    background-color: #e0f7fa;
+}
+
+/* FOOTER */
+footer {
+    text-align: center;
+    padding: 15px;
+    background: #222;
+    color: white;
+    margin-top: 40px;
+}
+
+:root {
+    --bg: #786666;
+    --text: #333;
+    --card: #f4f4f4;
+}
+.dark-mode {
+    --bg: #333;
+    --text: #f4f4f4;
+    --card: #555;
+}
+.botao-modo {
+    background: #444;
+    color: white;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.botao-modo:hover {
+    background: #00bcd4;
+}
+
+.tabela-projetos{ 
+    width: 80%;
+    margin: 40px auto;
+    border-collapse: collapse;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    transition: 0.3s;
+}
+.tabela-projetos th {
+    background-color: #333;
+    color: white;
+    padding: 15px;
+    font-size: 22px;
+}
+.tabela-projetos td {
+    padding: 20px;
+    text-align: left;
+    background-color: var(--card);
+}
+.tabela-projetos:hover {
+    transform: scale(1.03);
+    box-shadow: 0 0 20px rgba(0,0,0,0.4);
+}   
+
+
+.projetos-container {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin: 40px auto;
+    flex-wrap: wrap; 
+}
+
+.tabela-projetos {
+    width: 300px;
+}
