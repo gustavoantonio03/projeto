@@ -13,17 +13,18 @@
         <div class="header-container">
             <img src="img/download.png" alt="Minha foto" class="foto">
             <h1 class="logo">PORTFÓLIO PESSOAL</h1>
-
             <ul>
                 <li><a href="sobre.html">Sobre</a></li>
                 <li><a href="habilidades.html">Habilidades</a></li>
                 <li><a href="projetos.html">Meus Projetos</a></li>
                 <li><a href="contato.html">Contato</a></li>
             </ul>
-            <button onclick="toggleModo()" class="btn-modo">Trocar modo</button>
-        </div>
+            <div class="toggle-container">
+        <button onclick="toggleModo()" class="btn-modo">
+        Modo escuro 🌙
+        </button>
+    </div>
     </nav>
-
     <section id="sobre">
         <table class="tabela-sobre">
             <tr>
@@ -41,6 +42,32 @@
                 </td>
             </tr>
         </table>
+        <div class="extra-container">
+
+    <div class="card">
+        <img src="img/graduacao.jpg" alt="Graduação">
+        <h3>Período atual</h3>
+        
+        <div class="conteudo" id="periodo">
+            <p>6º período de Ciências da Computação.</p>
+        </div>
+
+        <button onclick="toggleConteudo('periodo')" class="btn-toggle">
+            Mostrar mais
+        </button>
+    </div>
+
+    <div class="card">
+        <img src="img/areas.png" alt="Áreas">
+        <h3>Áreas de interesse</h3>
+        <div class="conteudo" id="areas">
+            <p>Desenvolvimento web, testes de software, sistemas e inteligência artificial.</p>
+        </div>
+        <button onclick="toggleConteudo('areas')" class="btn-toggle">
+            Mostrar mais
+        </button>
+    </div>
+</div>
     </section>
     <footer>
         <p>© 2026 Gustavo Antônio. Todos os direitos reservados.</p>
