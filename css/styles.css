@@ -188,7 +188,6 @@ footer {
 .card:hover {
     transform: scale(1.05);
 }
-
 .card img {
     width: 100%;
     height: 140px;
@@ -198,7 +197,11 @@ footer {
 
 .card h3 {
     margin: 10px 0;
+    transition: 0.3s;
 }
+.card h3:hover {
+    color: #00bcd4;
+}  
 
 .conteudo {
     display: none;
