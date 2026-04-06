@@ -151,7 +151,9 @@ footer {
     transform: scale(1.03);
     box-shadow: 0 0 20px rgba(0,0,0,0.4);
 }   
-
+.tabela-projetos td:hover {
+    background-color: #e0f7fa;
+}
 
 .projetos-container {
     display: flex;
@@ -203,7 +205,6 @@ footer {
     margin-top: 10px;
 }
 
-/* botão */
 .btn-toggle {
     margin-top: 10px;
     padding: 8px 15px;
@@ -218,7 +219,54 @@ footer {
 .btn-toggle:hover {
     background: #00bcd4;
 }
-
+.social {
+    margin-top: 10px;
+}
+.social a {
+    margin: 0 10px;
+    display: inline-block;
+}
+.social img {
+    width: 30px;
+    height: 30px;
+}
+.social img:hover {
+    transform: scale(1.2);
+}
+.habilidades-container {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin: 30px auto;
+    flex-wrap: wrap;
+}
+.tabela-habilidades {
+    width: 250px;
+    transition: 0.3s;
+}
+.tabela-habilidades th {
+    background-color: #333;
+    color: white;
+    padding: 15px;
+    font-size: 22px;
+}
+.tabela-habilidades td {
+    padding: 20px;
+    text-align: left;
+    background-color: var(--card);
+}
+.tabela-habilidades:hover {
+    transform: scale(1.03);
+    box-shadow: 0 0 20px rgba(33, 22, 22, 0.4);
+    background: #e0f7fa;
+}
+.tabela-habilidades td:hover {
+    background-color: #b2ebf2;
+}
+.tabela-habilidades ul {
+    list-style: none;
+    padding: 0;
+}
 @media (max-width: 768px) {
 
     .header-container {

@@ -19,3 +19,8 @@ function toggleConteudo(id) {
         elemento.style.display = "block";
     }
 }
+
+function mostrarAnoAtual(){
+    const anoAtual = new Date().getFullYear();
+    document.getElementById("ano-atual").textContent = anoAtual;
+}

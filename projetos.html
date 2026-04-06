@@ -9,14 +9,16 @@
 </head>
 
 <body>
+    <body onload="mostrarAnoAtual()"> 
+    </body>
     <nav class="menu"> 
         <div class="header-container">
             <img src="img/download.png" alt="Minha foto" class="foto">
             <h1 class="logo">PORTFÓLIO PESSOAL</h1>
             <ul>
-                <li><a href="sobre.html">Sobre</a></li>
+                <li><a href="index.html">Sobre</a></li>
                 <li><a href="habilidades.html">Habilidades</a></li>
-                <li><a href="projetos.html">Meus Projetos</a></li>
+                <li><a href="projetos.html">Projetos</a></li>
                 <li><a href="contato.html">Contato</a></li>
             </ul>
             <div class="toggle-container">
@@ -66,9 +68,17 @@
     </div>
 </section>
     <footer>
-        <p>© 2026 Gustavo Antônio. Todos os direitos reservados.</p>
-    </footer>
+    <p>© <span id="ano-atual"></span> Gustavo Antônio. Todos os direitos reservados.</p>
+    <div class="social">
+        <a href="https://github.com/gustavoantonio03" target="_blank">
+            <img src="img/github.png" alt="GitHub">
+        </a>
 
+        <a href="https://www.linkedin.com/in/gustavo-antônio-7029b8357" target="_blank">
+            <img src="img/linkedin.png" alt="LinkedIn">
+        </a>
+    </div>
+</footer>
     <script src="js/script.js"></script>
 </body>
 </html>

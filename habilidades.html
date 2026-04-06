@@ -9,23 +9,66 @@
 </head>
 
 <body>
-   <nav class="menu"> 
-    <div class="header-container">
-        <img src="img/download.png" alt="Minha foto" class="foto">
-        <h1 class="logo">PORTFÓLIO PESSOAL</h1>
-
-        <ul>
-            <li><a href="sobre.html">Sobre</a></li>
-            <li><a href="habilidades.html">Habilidades</a></li>
-            <li><a href="projetos.html">Meus Projetos</a></li>
-            <li><a href="contato.html">Contato</a></li>
-        </ul>
-
-        <div class="toggle-container">
-            <button onclick="toggleModo()" class="btn-modo">
-                Modo escuro 🌙
-            </button>
+    <nav class="menu"> 
+        <div class="header-container">
+            <img src="img/download.png" alt="Minha foto" class="foto">
+            <h1 class="logo">PORTFÓLIO PESSOAL</h1>
+            <ul>
+                <li><a href="index.html">Sobre</a></li>
+                <li><a href="habilidades.html">Habilidades</a></li>
+                <li><a href="projetos.html">Projetos</a></li>
+                <li><a href="contato.html">Contato</a></li>
+            </ul>
+            <div class="toggle-container">
+        <button onclick="toggleModo()" class="btn-modo">
+        Modo escuro 🌙
+        </button>
         </div>
-    </div> 
-    <script src="js/script.js"></script>
-</nav>
+    </div>
+    </nav> 
+    <section id="habilidades">
+        <div class="habilidades-container">
+            <table class="tabela-habilidades">
+                <tr>
+                    <th>Habilidades Técnicas</th>
+                </tr>
+                <tr>
+                    <td>
+                        - Programação em Java, Python e Java.<br>
+                        - Desenvolvimento web com HTML, CSS e frameworks como React.<br>
+                        - Familiaridade com Github.<br>
+                        - Noções de testes de software e metodologias ágeis.<br>
+                        - Noções de banco de dados e SQL.
+                    </td>
+                </tr>
+            </table>
+            <table class="tabela-habilidades">
+                <tr>
+                    <th>Habilidades Pessoais</th>
+                </tr>
+                <tr>
+                    <td>
+                        - Comunicação eficaz e trabalho em equipe.<br>
+                        - Organização e gestão de tempo.<br>
+                        - Curiosidade e vontade de aprender constantemente.<br>
+                        - Resolução de problemas e pensamento crítico.<br>
+                        - Adaptabilidade e proatividade.
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </section>
+    <footer>
+    <p>© <span id="ano-atual"></span> Gustavo Antônio. Todos os direitos reservados.</p>
+    <div class="social">
+        <a href="https://github.com/gustavoantonio03" target="_blank">
+            <img src="img/github.png" alt="GitHub">
+        </a>
+
+        <a href="https://www.linkedin.com/in/gustavo-antônio-7029b8357" target="_blank">
+            <img src="img/linkedin.png" alt="LinkedIn">
+        </a>
+    </div>
+</footer>
+</body>
+</html>
