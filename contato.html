@@ -8,7 +8,7 @@
     <title>Portfólio</title>
 </head>
 
-<body>
+<body onload="mostrarAnoAtual()">
     <nav class="menu"> 
         <div class="header-container">
             <img src="img/download.png" alt="Minha foto" class="foto">
@@ -25,5 +25,22 @@
         </button>
     </div>
     </nav>
-    
+    <section class="contato-container">
+        <form id="form-contato" onsubmit="enviarMensagem(event)">
+            <h2>Contato</h2>
+            <input type="text" id="nome" name="nome" placeholder="Seu nome">
+
+            <input type="email" id="email" name="email" placeholder="Seu email">
+
+            <input type="text" id="assunto" name="assunto" placeholder="Assunto">
+
+            <textarea id="mensagem" name="mensagem" placeholder="Sua mensagem"></textarea>
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+    <footer>
+        <p>&copy; <span id="ano-atual"></span> Gustavo Antônio. Todos os direitos reservados.</p>
+    </footer>
+    <script src="js/script.js"></script>
+</body>
 </html>
